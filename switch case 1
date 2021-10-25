@@ -1,0 +1,29 @@
+#include <iostream>
+namespace std;
+
+int main(){
+
+    char beli;
+
+    cout<<"Buah yang dibeli :";
+    cout<<"1.Semangka\n 2.Jambu\n 3.Mangga\n";
+    cout<<"Yang dibeli :"<< endl;
+    cout<<"Input nilai (1 - 3)"<< endl;
+
+    cin>> beli;
+
+    switch(beli){
+        case 1:
+        cout<< "Semangka"<< endl;
+        break;
+        case 2:
+        cout<< "Jambu"<< endl;
+        break;
+        case 3:
+        cout<< "Mangga"<< endl;
+        break;
+        default :
+        cout<< "Tidak jadi beli"<< endl;
+    }
+    return 0:
+}
